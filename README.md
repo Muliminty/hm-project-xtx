@@ -5,3 +5,6 @@
 React快速上手Vue3项目
 
 全项目使用jsx
+
+## [文档](https://github.com/Muliminty/hm-project-xtx/tree/main/doc)
++ [Vue 3 + Vite 使用 JSX](https://github.com/Muliminty/hm-project-xtx/blob/main/doc/%E4%BD%BF%E7%94%A8jsx.md)
