@@ -1,8 +1,14 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.jsx'
+import ElementPlus from 'element-plus';
+import 'element-plus/dist/index.css'; // 引入核心样式文件
+// import 'element-plus/theme-chalk/index.css';
 
-createApp(App).mount('#app')
+createApp(App)
+  .use(ElementPlus)
+  .mount('#app')
+
 
 /**
  * import { createApp } from 'vue' 导入了 Vue 的 createApp 函数，用于创建Vue应用实例。

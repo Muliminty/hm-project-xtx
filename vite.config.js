@@ -16,6 +16,22 @@ export default defineConfig({
       '@': '/src'
     }
   },
+  // css: {
+  //   preprocessorOptions: {
+  //     scss: {
+  //       additionalData: `@import "@/styles/variables.scss";`, // 导入全局的 SCSS 变量文件
+  //     },
+  //   },
+
+  //   postcss: {
+  //     plugins: [
+  //       // 取消 @use 规则校验
+  //       require('postcss-plugin-sass').default({
+  //         allowUseBeforeImport: true
+  //       })
+  //     ]
+  //   }
+  // },
 })
 
 

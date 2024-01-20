@@ -1,27 +1,12 @@
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.jsx'
+import { Study } from './components/study/index.jsx'
 
 export default defineComponent({
   setup() {
-    const msg = 'Vite + Vue'
     return () => (
       <>
-        <Test />
-        <HelloWorld msg={msg} onClick={() => {
-          console.log('父组件点击事件');
-        }} />
+        < Study />
       </>
-    )
-  }
-})
-
-const Test = defineComponent({
-  setup() {
-    const msg = 'test'
-    return () => (
-      <div>
-        {msg}
-      </div>
     )
   }
 })
