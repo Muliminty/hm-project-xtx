@@ -2,6 +2,7 @@ import { defineComponent, ref, watch } from 'vue'
 import { StudyLife } from './StudyLife.jsx'
 import { StudyComputed } from './StudyComputed.jsx'
 import { StudyWatch } from './StudyWatch.jsx'
+import { ProvideAndInject } from './ProvideAndInject.jsx'
 import { StudyDefineExpose } from './defineExpose/StudyDefineExpose.jsx'
 import StudyDefineExposeFather from './defineExpose/StudyDefineExposeFather.vue'
 
@@ -48,6 +49,8 @@ const menuItems = [
       { key: 'StudyDefineExposeVue3', title: 'defineExpose-Vue常规用法', Component: StudyDefineExposeFather },
     ]
   },
+  { key: 'ProvideAndInject', title: 'ProvideAndInject', Component: ProvideAndInject },
+
 ];
 
 export const Study = defineComponent({
