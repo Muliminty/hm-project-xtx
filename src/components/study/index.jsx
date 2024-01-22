@@ -5,6 +5,7 @@ import { StudyWatch } from './StudyWatch.jsx'
 import { ProvideAndInject } from './ProvideAndInject.jsx'
 import { StudyDefineExpose } from './defineExpose/StudyDefineExpose.jsx'
 import StudyDefineExposeFather from './defineExpose/StudyDefineExposeFather.vue'
+import piniaDemo from './piniaDemo.jsx'
 
 import {
   ElContainer,
@@ -50,6 +51,7 @@ const menuItems = [
     ]
   },
   { key: 'ProvideAndInject', title: 'ProvideAndInject', Component: ProvideAndInject },
+  { key: 'piniaDemo', title: 'pinia 基础练习', Component: piniaDemo },
 
 ];
 

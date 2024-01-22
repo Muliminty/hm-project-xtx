@@ -12,6 +12,7 @@
     "@element-plus/theme-chalk": "^2.2.16",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
     "element-plus": "^2.5.2",
+    "pinia": "^2.1.7",
     "vue": "^3.3.11"
   },
   "devDependencies": {

@@ -3,10 +3,14 @@ import './style.css'
 import App from './App.jsx'
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css'; // 引入核心样式文件
+import { createPinia } from 'pinia'
 // import 'element-plus/theme-chalk/index.css';
+
+const pinia = createPinia()
 
 createApp(App)
   .use(ElementPlus)
+  .use(pinia)
   .mount('#app')
 
 
